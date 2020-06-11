@@ -14,7 +14,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1d0FinCCQP6e5fFtgHV9HNlsc78" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -174,11 +178,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="776" y="298" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591721532229" />
-    <state x="881" y="419" key="com.intellij.ide.util.TipDialog" timestamp="1591721107872">
+    <state x="881" y="419" key="com.intellij.ide.util.TipDialog" timestamp="1591881012942">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="293" key="com.intellij.ide.util.TipDialog/0.0.1364.728@0.0.1364.728" timestamp="1591621737215" />
-    <state x="881" y="419" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591721107872" />
+    <state x="881" y="419" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591881012942" />
     <state x="345" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1591879025461">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
