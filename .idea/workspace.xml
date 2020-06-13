@@ -30,6 +30,8 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -40,7 +42,7 @@
       <recent name="C:\Users\Dan\IdeaProjects\greet-in-java\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GreetingTest">
+  <component name="RunManager" selected="Application.main">
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main" />
       <module name="greet-in-java" />
@@ -48,19 +50,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GreetingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GreetMsgTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="greet-in-java" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GreetingTest" />
+      <option name="MAIN_CLASS_NAME" value="GreetMsgTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GreetingTest.shouldGreetUserInEnglish" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GreetMsgTest.shouldGreetUserInEnglish" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="greet-in-java" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GreetingTest" />
+      <option name="MAIN_CLASS_NAME" value="GreetMsgTest" />
       <option name="METHOD_NAME" value="shouldGreetUserInEnglish" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -69,9 +71,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GreetingTest" />
-        <item itemvalue="JUnit.GreetingTest.shouldGreetUserInEnglish" />
         <item itemvalue="Application.main" />
+        <item itemvalue="JUnit.GreetMsgTest" />
+        <item itemvalue="JUnit.GreetMsgTest.shouldGreetUserInEnglish" />
       </list>
     </recent_temporary>
   </component>
@@ -88,7 +90,16 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="274" y="22" key="#Notifications" timestamp="1591911564377">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="274" y="22" key="#Notifications/0.0.1364.728@0.0.1364.728" timestamp="1591911564377" />
     <state x="741" y="167" key="#Project_Structure" timestamp="1591702844867">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -97,31 +108,35 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="756" y="379" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1591721693018" />
+    <state x="432" y="234" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1592069087066">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="432" y="234" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1364.728@0.0.1364.728" timestamp="1592069087066" />
     <state x="591" y="180" key="FileChooserDialogImpl" timestamp="1591703312249">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="420" y="126" key="FileChooserDialogImpl/0.0.1364.728@0.0.1364.728" timestamp="1591621850008" />
     <state x="591" y="180" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591703312249" />
-    <state width="1234" height="180" key="GridCell.Tab.0.bottom" timestamp="1591880590291">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1234" height="144" key="GridCell.Tab.0.bottom" timestamp="1592090176252">
+      <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state width="1321" height="180" key="GridCell.Tab.0.bottom/0.0.1364.728@0.0.1364.728" timestamp="1591879604928" />
-    <state width="1234" height="180" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591880590291" />
-    <state width="1234" height="180" key="GridCell.Tab.0.center" timestamp="1591880590291">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1234" height="144" key="GridCell.Tab.0.bottom/0.0.1364.728@0.0.1364.728" timestamp="1592090176252" />
+    <state width="1877" height="144" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592055689797" />
+    <state width="1234" height="144" key="GridCell.Tab.0.center" timestamp="1592090176252">
+      <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state width="1321" height="180" key="GridCell.Tab.0.center/0.0.1364.728@0.0.1364.728" timestamp="1591879604928" />
-    <state width="1234" height="180" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591880590291" />
-    <state width="1234" height="180" key="GridCell.Tab.0.left" timestamp="1591880590291">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1234" height="144" key="GridCell.Tab.0.center/0.0.1364.728@0.0.1364.728" timestamp="1592090176252" />
+    <state width="1877" height="144" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592055689796" />
+    <state width="1234" height="144" key="GridCell.Tab.0.left" timestamp="1592090176252">
+      <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state width="1321" height="180" key="GridCell.Tab.0.left/0.0.1364.728@0.0.1364.728" timestamp="1591879604928" />
-    <state width="1234" height="180" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591880590291" />
-    <state width="1234" height="180" key="GridCell.Tab.0.right" timestamp="1591880590291">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1234" height="144" key="GridCell.Tab.0.left/0.0.1364.728@0.0.1364.728" timestamp="1592090176252" />
+    <state width="1877" height="144" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592055689796" />
+    <state width="1234" height="144" key="GridCell.Tab.0.right" timestamp="1592090176252">
+      <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state width="1321" height="180" key="GridCell.Tab.0.right/0.0.1364.728@0.0.1364.728" timestamp="1591879604928" />
-    <state width="1234" height="180" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591880590291" />
+    <state width="1234" height="144" key="GridCell.Tab.0.right/0.0.1364.728@0.0.1364.728" timestamp="1592090176252" />
+    <state width="1877" height="144" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592055689796" />
     <state width="1321" height="223" key="GridCell.Tab.1.bottom" timestamp="1591877628355">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
@@ -174,29 +189,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="163" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591721642437" />
+    <state x="183" y="6" key="SettingsEditor" timestamp="1591911582041">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="183" y="6" key="SettingsEditor/0.0.1364.728@0.0.1364.728" timestamp="1591911582041" />
     <state x="776" y="298" key="chooseDestDirectoryDialog" timestamp="1591721532229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="776" y="298" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591721532229" />
-    <state x="881" y="419" key="com.intellij.ide.util.TipDialog" timestamp="1591881012942">
+    <state x="881" y="419" key="com.intellij.ide.util.TipDialog" timestamp="1591950960290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="627" y="293" key="com.intellij.ide.util.TipDialog/0.0.1364.728@0.0.1364.728" timestamp="1591621737215" />
-    <state x="881" y="419" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591881012942" />
+    <state x="627" y="293" key="com.intellij.ide.util.TipDialog/0.0.1364.728@0.0.1364.728" timestamp="1591911555206" />
+    <state x="881" y="419" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591950960290" />
+    <state x="74" y="0" width="607" height="728" key="find.popup" timestamp="1591997453853">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="74" y="0" width="607" height="728" key="find.popup/0.0.1364.728@0.0.1364.728" timestamp="1591997453853" />
     <state x="345" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1591879025461">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
     <state x="345" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1364.728@0.0.1364.728" timestamp="1591879025461" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
