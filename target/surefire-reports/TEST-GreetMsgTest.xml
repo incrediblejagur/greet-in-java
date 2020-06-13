@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="GreetMsgTest" time="0.12" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="GreetMsgTest" time="12.085" tests="3" errors="0" skipped="0" failures="3">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="ZA"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Dan\AppData\Local\Temp\surefire1760577920991124079\surefirebooter8457844459344059418.jar C:\Users\Dan\AppData\Local\Temp\surefire1760577920991124079 2020-06-14T01-14-03_902-jvmRun1 surefire8377448186491083916tmp surefire_04002315208383382159tmp"/>
+    <property name="sun.java.command" value="C:\Users\Dan\AppData\Local\Temp\surefire8062654664577489499\surefirebooter7133433618044509577.jar C:\Users\Dan\AppData\Local\Temp\surefire8062654664577489499 2020-06-14T01-25-53_565-jvmRun1 surefire5697915207425327218tmp surefire_05148653962208529147tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\Dan\IdeaProjects\greet-in-java\target\test-classes;C:\Users\Dan\IdeaProjects\greet-in-java\target\classes;C:\Users\Dan\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;C:\Users\Dan\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Dan\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\Dan\.m2\repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;C:\Users\Dan\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;C:\Users\Dan\.m2\repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;C:\Users\Dan\.m2\repository\com\h2database\h2\1.4.199\h2-1.4.199.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Dan"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Dan\AppData\Local\Temp\surefire1760577920991124079\surefirebooter8457844459344059418.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Dan\AppData\Local\Temp\surefire8062654664577489499\surefirebooter7133433618044509577.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_231\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,7 +60,28 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="shouldGreetUserInEnglish" classname="GreetMsgTest" time="0.102"/>
-  <testcase name="shouldGreetUserInAfrikaans" classname="GreetMsgTest" time="0.005"/>
-  <testcase name="shouldGreetUserInXhosa" classname="GreetMsgTest" time="0.006"/>
+  <testcase name="shouldGreetUserInEnglish" classname="GreetMsgTest" time="4.073">
+    <failure message="Should greet Daniel in english. ==&gt; expected: &lt;Hello Daniel&gt; but was: &lt;Daniel&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Should greet Daniel in english. ==> expected: <Hello Daniel> but was: <Daniel>
+	at GreetMsgTest.shouldGreetUserInEnglish(GreetMsgTest.java:44)
+]]></failure>
+    <system-out><![CDATA[These test will fail until the fruit table is created: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Connection is broken: "java.net.SocketTimeoutException: connect timed out: localhost" [90067-199]
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: Connection is broken: "java.net.SocketTimeoutException: connect timed out: localhost" [90067-199]
+]]></system-out>
+  </testcase>
+  <testcase name="shouldGreetUserInAfrikaans" classname="GreetMsgTest" time="4.005">
+    <failure message="Should greet Jim in afrikaans. ==&gt; expected: &lt;More Jim&gt; but was: &lt;Jim&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Should greet Jim in afrikaans. ==> expected: <More Jim> but was: <Jim>
+	at GreetMsgTest.shouldGreetUserInAfrikaans(GreetMsgTest.java:50)
+]]></failure>
+    <system-out><![CDATA[These test will fail until the fruit table is created: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Connection is broken: "java.net.SocketTimeoutException: connect timed out: localhost" [90067-199]
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: Connection is broken: "java.net.SocketTimeoutException: connect timed out: localhost" [90067-199]
+]]></system-out>
+  </testcase>
+  <testcase name="shouldGreetUserInXhosa" classname="GreetMsgTest" time="4.004">
+    <failure message="Should greet Belinda in xhosa. ==&gt; expected: &lt;Molo Belinda&gt; but was: &lt;Belinda&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Should greet Belinda in xhosa. ==> expected: <Molo Belinda> but was: <Belinda>
+	at GreetMsgTest.shouldGreetUserInXhosa(GreetMsgTest.java:56)
+]]></failure>
+    <system-out><![CDATA[These test will fail until the fruit table is created: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Connection is broken: "java.net.SocketTimeoutException: connect timed out: localhost" [90067-199]
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: Connection is broken: "java.net.SocketTimeoutException: connect timed out: localhost" [90067-199]
+]]></system-out>
+  </testcase>
 </testsuite>

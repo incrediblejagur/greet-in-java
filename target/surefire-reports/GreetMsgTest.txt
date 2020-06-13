@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: GreetMsgTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.12 s - in GreetMsgTest
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 12.085 s <<< FAILURE! - in GreetMsgTest
+shouldGreetUserInEnglish  Time elapsed: 4.073 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Should greet Daniel in english. ==> expected: <Hello Daniel> but was: <Daniel>
+	at GreetMsgTest.shouldGreetUserInEnglish(GreetMsgTest.java:44)
+
+shouldGreetUserInAfrikaans  Time elapsed: 4.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Should greet Jim in afrikaans. ==> expected: <More Jim> but was: <Jim>
+	at GreetMsgTest.shouldGreetUserInAfrikaans(GreetMsgTest.java:50)
+
+shouldGreetUserInXhosa  Time elapsed: 4.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Should greet Belinda in xhosa. ==> expected: <Molo Belinda> but was: <Belinda>
+	at GreetMsgTest.shouldGreetUserInXhosa(GreetMsgTest.java:56)
+
