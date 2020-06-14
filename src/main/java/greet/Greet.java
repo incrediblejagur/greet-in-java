@@ -1,7 +1,5 @@
 package greet;
 import java.sql.*;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Greet extends GreetQueries{
     final String DATABASE_URL = "jdbc:h2:tcp://localhost/~/test";
