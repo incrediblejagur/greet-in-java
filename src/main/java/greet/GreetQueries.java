@@ -34,8 +34,7 @@ public class GreetQueries {
             rs.next();
             return name+":"+rs.getInt("count");
         } catch (Exception e) {
-            System.out.println(e);
-            return "";
+            return "Name not found.";
         }
     } // greeted 'name'
 
@@ -87,11 +86,12 @@ public class GreetQueries {
             PreparedStatement findNameStatement = conn.prepareStatement(FIND_NAME_SQL);
             findNameStatement.setString(1, name);
             findNameStatement.execute();
-
+            ResultSet rs = findNameStatement.executeQuery();
+            rs.next();
             return name + " deleted!";
         } catch (Exception e) {
 //            System.out.println(e);
-            return "";
+            return "Name not found.";
         }
     } // clear 'name'
 

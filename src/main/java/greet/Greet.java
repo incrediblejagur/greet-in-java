@@ -2,18 +2,6 @@ package greet;
 import java.sql.*;
 
 public class Greet extends GreetQueries{
-    final String DATABASE_URL = "jdbc:h2:tcp://localhost/~/test";
-
-    public Connection getConnection() throws Exception {
-        // TODO - add a username of "sa" and a blank password ""
-        // TODO - if the db is created via default flyway config the username will be "sa" with a blank password
-        // you can change this by removing the user element containing sa in the pom.xml file
-        // if not be sure to delete the *.db files in your target folder before running mvn flyway:migrate the first time
-        // and be sure the set the username to "sa" password blank ""
-        // if your remove the user element from the pom.xml file you are use a username of "" and a password of ""
-        Connection conn = DriverManager.getConnection(DATABASE_URL, "sa", "");
-        return conn;
-    }
 
     String greeting = "";
 
