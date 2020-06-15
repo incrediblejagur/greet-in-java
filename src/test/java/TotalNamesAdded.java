@@ -5,12 +5,11 @@ import org.junit.jupiter.api.Test;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.Statement;
-import java.util.ArrayList;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class AddNameDbTest {
-    /// Testing 'greeted' command
+public class TotalNamesAdded {
+    /// Testing 'counter' command
     final String DATABASE_URL = "jdbc:h2:~/test";
     public Connection getConnection() throws Exception {
         // TODO - add a username of "sa" and a blank password ""
@@ -29,6 +28,17 @@ public class AddNameDbTest {
                 Statement statement = conn.createStatement();
                 statement.addBatch("TRUNCATE TABLE greet");
                 statement.executeBatch();
+                // populate db
+                Greet greet = new Greet();
+                greet.GreetUser("jim", "afrikaans");
+                greet.GreetUser("dan", "afrikaans");
+                greet.GreetUser("andre", "afrikaans");
+                greet.GreetUser("ben", "afrikaans");
+                greet.GreetUser("andre", "afrikaans");
+                greet.GreetUser("jason", "afrikaans");
+                greet.GreetUser("andre", "afrikaans");
+                greet.GreetUser("thabang", "afrikaans");
+                greet.GreetUser("jason", "afrikaans");
             }
         } catch(Exception ex) {
             System.out.println("These test will fail until the fruit table is created: " + ex);
@@ -36,33 +46,9 @@ public class AddNameDbTest {
     }
 
     @Test
-    public void shouldAddNameToDB0(){
+    public void shouldReturnTotalNamesAdd(){
         Greet greet = new Greet();
-        greet.GreetUser("jim", "afrikaans");
-        ArrayList<String> names = new ArrayList<String>();
-        names.add("Jim:1");
-        assertEquals(names, greet.getAllNamesGreeted(),"Should return Jim with a count of 1.");
-    }
-
-    @Test
-    public void shouldAddNameToDB1(){
-        Greet greet = new Greet();
-        greet.GreetUser("dan", "afrikaans");
-        greet.GreetUser("dan", "english");
-        ArrayList<String> names = new ArrayList<String>();
-        names.add("Dan:2");
-        assertEquals(names, greet.getAllNamesGreeted(),"Should return Dan with a count of 2.");
-    }
-
-    @Test
-    public void shouldAddNameToDB2(){
-        Greet greet = new Greet();
-        greet.GreetUser("andre", "afrikaans");
-        greet.GreetUser("andre", "xhosa");
-        greet.GreetUser("andre", "english");
-        ArrayList<String> names = new ArrayList<String>();
-        names.add("Andre:3");
-        assertEquals(names, greet.getAllNamesGreeted(),"Should return Andre with a count of 3.");
+        assertEquals(6, greet.totalUniqueUsersGreeted(),"Should return total unique names greeted.");
     }
 
 }

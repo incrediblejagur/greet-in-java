@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: GreetMsgTest
+Test set: AddNameDbTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in GreetMsgTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.475 s - in AddNameDbTest
