@@ -1,4 +1,4 @@
-package greet;
+package net.greet;
 
 import java.sql.*;
 import java.util.ArrayList;

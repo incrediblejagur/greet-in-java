@@ -1,4 +1,4 @@
-import greet.Greet;
+import net.greet.Greet;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

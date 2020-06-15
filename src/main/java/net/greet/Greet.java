@@ -1,4 +1,4 @@
-package greet;
+package net.greet;
 import java.sql.*;
 
 public class Greet extends GreetQueries{
