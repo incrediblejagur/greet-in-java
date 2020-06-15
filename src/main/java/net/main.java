@@ -21,7 +21,7 @@ public class main {
         if(command.equals("help")){
             help();
         }
-        if(command.equals(("net/greet"))){
+        if(command.equals(("greet"))){
             runGreeting();
         }if(command.equals("exit")){
             return;

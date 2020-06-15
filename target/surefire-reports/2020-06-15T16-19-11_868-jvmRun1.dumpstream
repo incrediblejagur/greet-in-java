@@ -1,0 +1,21 @@
+# Created at 2020-06-15T16:19:17.934
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-06-15T16:19:18.990
+Unexpected IOException with stream: These test will fail until the fruit table is created: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Connection is broken: "java.net.SocketTimeoutException: connect timed out: localhost" [90067-199]
+
+
+# Created at 2020-06-15T16:19:18.993
+Unexpected IOException: 6,1,GreetMsgTest,shouldGreetUserInXhosa,null,null,null
+
+
+# Created at 2020-06-15T16:19:18.995
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,GreetMsgTest,null,null,null
+
+

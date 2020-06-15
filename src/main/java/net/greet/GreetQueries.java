@@ -5,9 +5,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GreetQueries {
-    final String DATABASE_URL = "jdbc:h2:tcp://localhost/~/test";
+    final String DATABASE_URL = "jdbc:h2:~/test";
 
     public Connection getConnection() throws Exception {
+        Class.forName("org.h2.Driver");
         // TODO - add a username of "sa" and a blank password ""
         // TODO - if the db is created via default flyway config the username will be "sa" with a blank password
         // you can change this by removing the user element containing sa in the pom.xml file

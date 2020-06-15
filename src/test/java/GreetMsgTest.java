@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 public class GreetMsgTest {
-    final String DATABASE_URL = "jdbc:h2:tcp://localhost/~/test";
+    final String DATABASE_URL = "jdbc:h2:~/test";
     public Connection getConnection() throws Exception {
         // TODO - add a username of "sa" and a blank password ""
         // TODO - if the db is created via default flyway config the username will be "sa" with a blank password
