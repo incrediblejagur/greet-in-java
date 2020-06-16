@@ -1,2 +1,4 @@
+ClearNamesTest.class
+DbConnection.class
 AddNameDbTest.class
-GreetMsgTest.class
+GetNameCountTest.class

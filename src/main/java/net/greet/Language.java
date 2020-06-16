@@ -5,28 +5,17 @@ public class Language {
 
     public Language(String language){
         String lang = language.toLowerCase();
-    if(lang.equals("english")){
-        English();
+    if(lang.equals("english")) {
+        greeting = "Hello ";
+    }else if(lang.equals("afrikaans")){
+            greeting = "More ";
+    }else if(lang.equals("xhosa")){
+            greeting = "Molo ";
+    }else {
+            greeting = "Hello ";
     }
-        if(lang.equals("afrikaans")){
-            Afrikaans();
-        }
-        if(lang.equals("xhosa")){
-            Xhosa();
-        }
-    }
-
-    public void English(){
-        this.greeting = "Hello ";
     }
 
-    public void Afrikaans(){
-        this.greeting = "More ";
-    }
-
-    public void Xhosa(){
-        this.greeting = "Molo ";
-    }
 
     public String getGreeting(){
         return greeting;
