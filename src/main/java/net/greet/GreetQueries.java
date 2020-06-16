@@ -4,7 +4,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GreetQueries {
+public abstract class GreetQueries implements Greets {
     final String DATABASE_URL = "jdbc:h2:~/test";
 
     public Connection getConnection() throws Exception {
