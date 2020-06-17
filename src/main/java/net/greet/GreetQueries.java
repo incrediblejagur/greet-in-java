@@ -91,10 +91,8 @@ public abstract class GreetQueries implements Greets {
     } // clear 'name'
 
     public String deleteAllNames() {
-        // don't touch any code in here!!!
         try {
             try(Connection conn = getConnection()) {
-                // I repeat don't touch any code in here!!!
                 Statement statement = conn.createStatement();
                 statement.addBatch("TRUNCATE TABLE greet");
                 statement.executeBatch();

@@ -34,9 +34,6 @@ public class Greet extends GreetQueries{
     } //greet
 
     public Boolean checkIfNameExist(String name) {
-
-        // PreparedStatement are SQL statements that can be called
-        // over and over with different parameters
         try {
             Connection conn = getConnection();
             final String FIND_NAME_SQL = "select * from greet where name = ?";
