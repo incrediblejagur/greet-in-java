@@ -15,8 +15,8 @@ Features included is as follows:
 
 ## Getting Started
  
-Clone or download this [respository]([https://github.com/incrediblejagur/greet-in-java]) to your machine from GitHub.
-
+Clone this [respository]([https://github.com/incrediblejagur/greet-in-java]) to your machine from GitHub.
+Or download the jar file [greet-in-java.jar](https://github.com/incrediblejagur/greet-in-java/raw/master/greet-in-java.jar)
   
 
 #### Cloning
@@ -47,7 +47,8 @@ What things you need to install the software and how to install them?
 
 ### Running app locally
 - Open the terminal/cmd
-- 'navigate to folder' e.g C:\Users\incrediblejagur\Desktop\greet-in-java, wherever you cloned it.
+- 'navigate to folder' e.g C:\Users\incrediblejagur\Desktop\greet-in-java, wherever you cloned it, or if you downloaded the jar file
+  navigate to the folder that its in.
 #### Run by Jar file
 ```
 $ java -jar greet-in-java.jar
