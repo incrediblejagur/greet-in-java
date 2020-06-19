@@ -15,8 +15,8 @@ Features included is as follows:
 
 ## Getting Started
  
-Clone this [respository]([https://github.com/incrediblejagur/greet-in-java]) to your machine from GitHub.
-Or download the jar file [greet-in-java.jar](https://github.com/incrediblejagur/greet-in-java/raw/master/greet-in-java.jar)
+Clone this [respository](https://github.com/incrediblejagur/greet-in-java) to your machine from GitHub,
+or download the jar file [greet-in-java.jar](https://github.com/incrediblejagur/greet-in-java/raw/master/greet-in-java.jar)
   
 
 #### Cloning
