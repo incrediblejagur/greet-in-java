@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="GreetMsgTest" time="0.035" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="GreetMsgTest" time="0.031" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="ZA"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Dan\AppData\Local\Temp\surefire2746419538242492683\surefirebooter5372789974743819643.jar C:\Users\Dan\AppData\Local\Temp\surefire2746419538242492683 2020-06-17T12-16-13_484-jvmRun1 surefire1232966469614926661tmp surefire_08978203110180848594tmp"/>
+    <property name="sun.java.command" value="C:\Users\Dan\AppData\Local\Temp\surefire7048503496228760341\surefirebooter4178490937621182810.jar C:\Users\Dan\AppData\Local\Temp\surefire7048503496228760341 2020-06-19T11-25-54_697-jvmRun1 surefire3059695629010910018tmp surefire_0771273338941633530tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\Dan\IdeaProjects\greet-in-java\target\test-classes;C:\Users\Dan\IdeaProjects\greet-in-java\target\classes;C:\Users\Dan\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;C:\Users\Dan\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Dan\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\Dan\.m2\repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;C:\Users\Dan\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;C:\Users\Dan\.m2\repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;C:\Users\Dan\.m2\repository\com\h2database\h2\1.4.199\h2-1.4.199.jar;C:\Users\Dan\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Dan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Dan"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Dan\AppData\Local\Temp\surefire2746419538242492683\surefirebooter5372789974743819643.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Dan\AppData\Local\Temp\surefire7048503496228760341\surefirebooter4178490937621182810.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_231\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,8 +60,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="shouldGreetUserInDefaultLanguage" classname="GreetMsgTest" time="0.006"/>
-  <testcase name="shouldGreetUserInEnglish" classname="GreetMsgTest" time="0.009"/>
+  <testcase name="shouldGreetUserInDefaultLanguage" classname="GreetMsgTest" time="0.005"/>
+  <testcase name="shouldGreetUserInEnglish" classname="GreetMsgTest" time="0.008"/>
   <testcase name="shouldGreetUserInAfrikaans" classname="GreetMsgTest" time="0.008"/>
-  <testcase name="shouldGreetUserInXhosa" classname="GreetMsgTest" time="0.01"/>
+  <testcase name="shouldGreetUserInXhosa" classname="GreetMsgTest" time="0.008"/>
 </testsuite>

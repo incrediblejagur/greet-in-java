@@ -18,14 +18,9 @@ public class main {
         Scanner myObj = new Scanner(System.in);
         System.out.print("> ");
         String command = myObj.nextLine();
-        if(command.equals("help")){
-            help();
-        }
-        if(command.equals(("greet"))){
-            runGreeting();
-        }if(command.equals("exit")){
-            return;
-        }
+        if(command.equals("help"))help();
+        if(command.equals(("greet"))) runGreeting();
+        if(command.equals("exit")) return;
         if(command.split(" ")[0].equals("greeted")){
            int greetedCommand = command.split(" ").length;
            if(greetedCommand == 1) {
@@ -44,10 +39,7 @@ public class main {
                 System.out.println(greet.deleteName(name));
             }
         }
-        if(command.equals("counter")){
-            System.out.println(greet.totalUniqueUsersGreeted());
-        }
-
+        if(command.equals("counter"))System.out.println(greet.totalUniqueUsersGreeted());
         home();
     }
 
@@ -65,9 +57,7 @@ public class main {
 
         System.out.print("Run again? y/n ");
         String answer = myObj.nextLine();
-        if(answer.trim().toLowerCase().equals(("y"))){
-            runGreeting();
-        }
+        if(answer.trim().toLowerCase().equals(("y"))) runGreeting();
     }
 
     public static void help(){
@@ -81,9 +71,9 @@ public class main {
                 "- 'clear' followed by a username delete the greet counter for the specified user and decrement the greet counter by 1\n" +
                 "- 'exit' exits the application\n" +
                 "- 'help' shows a user an overview of all possible commands\n"+
+                "- supported languages are as follows: english, xhosa, afrikaans.\n"+
                 "=============================================================================\n"
         );
-        home();
     }
 
 }
