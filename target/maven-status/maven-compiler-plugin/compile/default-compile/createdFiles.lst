@@ -2,3 +2,4 @@ net\greet\Greet.class
 net\greet\GreetQueries.class
 net\greet\Language.class
 net\main.class
+net\greet\Greets.class
