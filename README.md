@@ -53,7 +53,7 @@ What things you need to install the software and how to install them?
 ```
 $ java -cp target/* net.main
 ```
-### Using Linux/MacOS
+#### Using Linux/MacOS
 ```
 $ java -cp .:target/*: net.main
 ```
