@@ -49,13 +49,13 @@ What things you need to install the software and how to install them?
 - Open the terminal/cmd
 - 'navigate to folder' e.g C:\Users\incrediblejagur\Desktop\greet-in-java, wherever you cloned it, or if you downloaded the jar file
   navigate to the folder that its in.
-#### Run by Jar file
-```
-$ java -jar greet-in-java.jar
-```
-#### Other ways to run
+#### Using Windows
 ```
 $ java -cp target/* net.main
+```
+### Using Linux/MacOS
+```
+$ java -cp .:target/*: net.main
 ```
 #### Run tests locally
 ```
