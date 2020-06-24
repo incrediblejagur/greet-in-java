@@ -58,6 +58,7 @@ $ java -cp target/* net.main
 $ java -cp .:target/*: net.main
 ```
 #### Run tests locally
+- Install [maven](https://maven.apache.org/).
 ```
 $ mvn test
 ```
