@@ -102,13 +102,14 @@ public abstract class GreetQueries implements Greets {
 
             PreparedStatement findNameStatement = conn.prepareStatement(FIND_NAME_SQL);
             findNameStatement.setString(1, name);
-            findNameStatement.execute();
-            ResultSet rs = findNameStatement.executeQuery();
-            rs.next();
-            return name + " deleted!";
+            int rs = findNameStatement.executeUpdate();
+    if(rs == 1){
+        return name + " deleted!";
+    }else{
+        return "Name already doesn't exist.";
+    }
         } catch (Exception e) {
-//            System.out.println(e);
-            return "Name not found.";
+            return "Error deleting name from database.";
         }
     } // clear 'name'
 
