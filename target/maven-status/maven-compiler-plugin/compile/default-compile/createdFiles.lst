@@ -1,5 +1,9 @@
-net\greet\Greet.class
 net\greet\GreetQueries.class
-net\greet\Language.class
+net\commands\Commands.class
+net\exceptions\NoLanguageExeption.class
+net\exceptions\NoNameException.class
+net\language\Language.class
+net\greet\Greet.class
 net\main.class
+net\exceptions\GreetException.class
 net\greet\Greets.class
