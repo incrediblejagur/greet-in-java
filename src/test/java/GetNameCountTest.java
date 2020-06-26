@@ -1,3 +1,4 @@
+import net.exceptions.GreetException;
 import net.greet.Greet;
 import org.junit.jupiter.api.Test;
 
@@ -24,7 +25,7 @@ public class GetNameCountTest extends DbConnection{
     }
 
     @Test
-    public void getNameCount3(){
+    public void getNameCount3() throws GreetException {
         Greet greet = new Greet();
         assertEquals("Andre:3", greet.getNameCount("andre"),"Should return Andre with a count of 3.");
         greet.GreetUser("andre","afrikaans");

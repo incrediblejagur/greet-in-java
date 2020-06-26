@@ -1,3 +1,4 @@
+import net.exceptions.GreetException;
 import net.greet.Greet;
 import org.junit.jupiter.api.Test;
 
@@ -24,7 +25,7 @@ public class ClearNamesTest extends DbConnection {
     }
 
     @Test
-    public void shouldClearName2(){
+    public void shouldClearName2() throws GreetException {
         Greet greet = new Greet();
         greet.GreetUser("daniel","english");
         assertEquals("Andre:3",greet.getNameCount("andre"));
@@ -43,7 +44,7 @@ public class ClearNamesTest extends DbConnection {
     }
 
     @Test
-    public void shouldClearAllNames1(){
+    public void shouldClearAllNames1() throws GreetException {
         Greet greet = new Greet();
         greet.GreetUser("daniel","english");
         greet.GreetUser("peter","english");

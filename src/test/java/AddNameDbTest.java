@@ -1,3 +1,4 @@
+import net.exceptions.GreetException;
 import net.greet.Greet;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -24,7 +25,7 @@ public class AddNameDbTest extends DbConnection {
     }
 
     @Test
-    public void shouldAddNameToDB0(){
+    public void shouldAddNameToDB0() throws GreetException {
         Greet greet = new Greet();
         greet.GreetUser("jim", "afrikaans");
         ArrayList<String> names = new ArrayList<String>();
@@ -33,7 +34,7 @@ public class AddNameDbTest extends DbConnection {
     }
 
     @Test
-    public void shouldAddNameToDB1(){
+    public void shouldAddNameToDB1() throws GreetException {
         Greet greet = new Greet();
         greet.GreetUser("dan", "afrikaans");
         greet.GreetUser("dan", "english");
@@ -43,7 +44,7 @@ public class AddNameDbTest extends DbConnection {
     }
 
     @Test
-    public void shouldAddNameToDB2(){
+    public void shouldAddNameToDB2() throws GreetException {
         Greet greet = new Greet();
         greet.GreetUser("andre", "afrikaans");
         greet.GreetUser("andre", "xhosa");
@@ -55,7 +56,7 @@ public class AddNameDbTest extends DbConnection {
     }
 
     @Test
-    public void shouldAddNameToDB3(){
+    public void shouldAddNameToDB3() throws GreetException {
         Greet greet = new Greet();
         greet.GreetUser("andre", "afrikaans");
         greet.GreetUser("jason", "english");

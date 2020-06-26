@@ -1,3 +1,4 @@
+import net.exceptions.GreetException;
 import net.greet.Greet;
 import org.junit.jupiter.api.Test;
 
@@ -11,14 +12,14 @@ public class TotalNamesAddedTest extends DbConnection{
         assertEquals(6, greet.totalUniqueUsersGreeted(),"Should return total unique names greeted.");
     }
     @Test
-    public void shouldReturnTotalNamesAdd1(){
+    public void shouldReturnTotalNamesAdd1() throws GreetException {
         Greet greet = new Greet();
         assertEquals(6, greet.totalUniqueUsersGreeted(),"Should return total unique names greeted.");
         greet.GreetUser("peter","afrikaans");
         assertEquals(7, greet.totalUniqueUsersGreeted(),"Should return updated total unique names greeted.");
     }
     @Test
-    public void shouldReturnTotalNamesAdd2(){
+    public void shouldReturnTotalNamesAdd2() throws GreetException {
         Greet greet = new Greet();
         greet.GreetUser("peter","afrikaans");
         greet.deleteName("peter");
