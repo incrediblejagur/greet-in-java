@@ -1,7 +1,6 @@
 package net;
 
 import net.commands.Commands;
-import net.language.Language;
 
 public class main {
 

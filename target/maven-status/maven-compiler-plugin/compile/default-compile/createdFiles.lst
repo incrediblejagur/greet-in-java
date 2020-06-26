@@ -4,6 +4,7 @@ net\exceptions\NoLanguageExeption.class
 net\exceptions\NoNameException.class
 net\language\Language.class
 net\greet\Greet.class
+net\commands\Extractor.class
 net\main.class
 net\exceptions\GreetException.class
 net\greet\Greets.class

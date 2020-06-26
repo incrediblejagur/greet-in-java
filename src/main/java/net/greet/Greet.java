@@ -1,6 +1,5 @@
 package net.greet;
 import net.exceptions.GreetException;
-import net.exceptions.NoNameException;
 import net.language.Language;
 
 public class Greet extends GreetQueries{
