@@ -9,7 +9,6 @@ public class Greet extends GreetQueries{
     public String GreetUser(String name, String lang) throws GreetException {
             name = name.substring(0, 1).toUpperCase() + name.substring(1); // standardization
             name = name.replaceAll("\\s+", "");
-            if(name == "") throw new NoNameException();
                   String greetExpression = Language.getExpression(lang);
                   addNameToDB(name);
                     this.greeting = greetExpression + name;
