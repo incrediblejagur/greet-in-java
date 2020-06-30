@@ -36,7 +36,7 @@ public abstract class GreetQueries implements Greets {
     }
 
     public String getNameCount(String name){
-        name = name.substring(0, 1).toUpperCase() + name.substring(1); // standardization
+        name = name.substring(0, 1).toUpperCase() + name.substring(1).toLowerCase(); // standardization
         try {
             Connection conn = getConnection();
             final String FIND_NAME_SQL = "select count from greet where name = ?";
@@ -95,7 +95,7 @@ public abstract class GreetQueries implements Greets {
     } // greeted
 
     public String deleteName(String name){
-        name = name.substring(0, 1).toUpperCase() + name.substring(1); // standardization
+        name = name.substring(0, 1).toUpperCase() + name.substring(1).toLowerCase(); // standardization
         try {
             Connection conn = getConnection();
             final String FIND_NAME_SQL = "delete from greet WHERE name = ?";
