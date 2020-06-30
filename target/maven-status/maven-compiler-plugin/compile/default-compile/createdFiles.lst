@@ -1,10 +1,12 @@
+net\misc\color.class
+net\language\Language.class
+net\main.class
 net\greet\GreetQueries.class
 net\commands\Commands.class
 net\exceptions\NoLanguageExeption.class
 net\exceptions\NoNameException.class
-net\language\Language.class
+net\exceptions\InvalidCommandException.class
 net\greet\Greet.class
 net\commands\Extractor.class
-net\main.class
 net\exceptions\GreetException.class
 net\greet\Greets.class
