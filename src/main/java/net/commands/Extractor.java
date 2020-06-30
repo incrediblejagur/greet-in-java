@@ -1,27 +1,30 @@
 package net.commands;
 import net.exceptions.*;
 import net.greet.Greet;
+import net.misc.color;
 
 public abstract class Extractor {
+    public Boolean validCommand = false;
+    Greet greet = new Greet();
 
-    public static void greetPerson(String command){
-        Greet greet = new Greet();
+    public void greetPerson(String command){
         String name = "";
         String lang = "";
+        this.validCommand = true;
         try {
             int greetCommandLength = command.split(" ").length;
             if(greetCommandLength == 1) throw new NoNameException();
             name = command.split(" ")[1];
             if (greetCommandLength == 3) lang = command.split(" ")[2];
-            System.out.println(greet.GreetUser(name, lang));
+            System.out.println(color.ANSI_YELLOW+greet.GreetUser(name, lang)+color.ANSI_RESET);
             if(greetCommandLength == 2) throw new NoLanguageExeption();
         }catch (GreetException es){
             System.out.println(es.getMessage());
         }
     }
 
-    public static void greeted(String command){
-        Greet greet = new Greet();
+    public void greeted(String command){
+        this.validCommand = true;
         int greetedCommand = command.split(" ").length;
         if(greetedCommand == 1) {
             System.out.println(greet.getAllNamesGreeted());
@@ -31,8 +34,8 @@ public abstract class Extractor {
         }
     }
 
-    public static void clear(String command){
-        Greet greet = new Greet();
+    public void clear(String command){
+        this.validCommand = true;
         int clearCommand = command.split(" ").length;
         if(clearCommand == 1) {
             System.out.println(greet.deleteAllNames());
@@ -42,5 +45,9 @@ public abstract class Extractor {
         }
     }
 
+    public void counter(){
+        validCommand = true;
+        System.out.println(greet.totalUniqueUsersGreeted());
+    }
 }
 
